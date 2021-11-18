@@ -225,7 +225,8 @@ public class TemporaryCacheService {
 
 	    XLog element = (XLog) cacheRepo.get(key);
 
-	    if (element == null) {
+	    //if (element == null) {
+		if (true) {
 		// If doesn't hit cache
 		LOGGER.debug("Cache for [KEY: {}] is null.", key);
 
